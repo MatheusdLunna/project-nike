@@ -1,0 +1,223 @@
+html {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/** -------------------------------HEADER------------------------------- **/
+
+header {
+    background-image: url(F:/Users/Pichau/Desktop/ALURA/page/Nike/IMG/Rectangle1.png);
+    background-position: 50% 50%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.header-logo {
+    max-width: 70px;
+}
+
+.header-items {
+    display:flex;
+    align-items: center;
+}
+
+.header-item {
+    background-image: url(F:/Users/Pichau/Desktop/ALURA/page/Nike/IMG/Rectangle1.png);
+    background-position: 10px;
+    border-bottom: solid #ffffff00 2px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin: 0 10px;
+    color: #ffffff;
+    transition: all 0.1s;
+}
+
+.header-item:hover {
+    border-bottom:solid #ffffff 1px;
+}
+
+.header-item:active {
+    border-bottom:solid #000000 2px;
+}
+
+
+.header-cart {
+    max-width: 38px;
+    margin-left: 20px;
+}
+
+
+
+/** -------------------------------HEADER-content------------------------------- **/
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    padding-top: 250px;
+}
+
+.jordan-text {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+}
+
+.jordan-price {
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.jordan-img {
+    padding-left: 120px;
+}
+
+
+
+/** -------------------------------MAIN1------------------------------- **/
+
+.main1 {
+    margin: 100px 0;
+}
+
+.main1group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 70px;
+    flex-wrap: wrap;
+}
+
+.main1group2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 70px;
+    margin-top: 150px;
+    flex-wrap: wrap;
+}
+
+.main1-marq {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.main1-img {
+    max-width: 600px;
+}
+
+.main1texts {
+    max-width: 300px;
+    margin-left: 50px;
+}
+
+#main1textss {
+    margin-bottom: 100px;
+}
+
+.main1text {
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+
+/** -------------------------------MAIN2------------------------------- **/
+
+
+.main2-border {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.main2-border-text {
+    font-size: 1.5rem;
+    color: #1b1883;
+    margin-right: 30px;
+}
+
+.brasil-img {
+    width: 30px;
+    
+}
+
+.main2-imgg {
+    width: 100%;
+    max-width: 1500px;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+/** -------------------------------MAIN3------------------------------- **/
+
+.main3 {
+    margin: 100px 0;
+}
+
+
+.main3-text {
+    color: #2e3645;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main3-span {
+    font-weight: 500;
+}
+
+
+.main3-part2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.just-do-it {
+    font-weight: 700;
+    font-size: 7rem;
+    color: #2e3645;
+    margin-right: 50px;
+}
+
+
+.main3-img {
+    width: 30%;
+    min-width: 500px;
+}
+
+
+/** -------------------------------MAIN4------------------------------- **/
+
+.main4 {
+    background-image: url(F:/Users/Pichau/Desktop/ALURA/page/Nike/IMG/background.png);
+    background-size: 50%;
+}
+
+.main4-img {
+    width: 100%;
+    max-width: 900px;
+    display: block;
+    margin: 0 auto;
+
+}
